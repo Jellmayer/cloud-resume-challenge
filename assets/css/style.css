@@ -1,25 +1,16 @@
 /*-----------------------------------*\
-  #style.css
+  DESIGNED BY @codewithsadde
+  copyright 2022 - MIT license
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
 /*-----------------------------------*\
-  #CUSTOM PROPERTY
+  #CUSTOM PROPERTIES
 \*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
+  /***  colors  ***/
 
   /* gradient */
 
@@ -69,9 +60,7 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
+  /***  typography  ***/
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
@@ -92,9 +81,7 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
+  /*** shadow  ***/
   
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -102,17 +89,12 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
+  /***  transition  ***/
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -158,11 +140,8 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
-
-
-
 /*-----------------------------------*\
-  #REUSED STYLE
+  #REUSED STYLES
 \*-----------------------------------*/
 
 .sidebar,
@@ -293,9 +272,6 @@ article.active {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -305,9 +281,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -443,11 +416,7 @@ main {
   font-size: 18px;
 }
 
-
 .social-item .social-link:hover { color: var(--light-gray); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -488,9 +457,6 @@ main {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -507,10 +473,7 @@ main {
 .about-text p { margin-bottom: 15px; }
 
 
-
-/**
- * #service 
- */
+/*** #service  ***/
 
 .service { margin-bottom: 35px; }
 
@@ -556,9 +519,7 @@ main {
 }
 
 
-/**
- * #testimonials 
- */
+/*** #testimonials  ***/
 
 .testimonials { margin-bottom: 30px; }
 
@@ -608,9 +569,7 @@ main {
 }
 
 
-/**
- * #testimonials-modal
- */
+/*** #testimonials-modal  ***/
 
 .modal-container {
   position: fixed;
@@ -722,9 +681,7 @@ main {
 }
 
 
-/**
- * #clients 
- */
+/*** #clients  ***/
 
 .clients { margin-bottom: 15px; }
 
@@ -757,9 +714,6 @@ main {
 .clients-item img:hover { filter: grayscale(0); }
 
 
-
-
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
@@ -767,9 +721,7 @@ main {
 .article-title { margin-bottom: 30px; }
 
 
-/**
- * education and experience 
- */
+/*** education and experience ***/
 
 .timeline { margin-bottom: 30px; }
 
@@ -830,9 +782,7 @@ main {
 }
 
 
-/**
- * skills 
- */
+/*** skills  ***/
 
 .skills-title { margin-bottom: 20px; }
 
@@ -866,9 +816,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1027,97 +974,6 @@ main {
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
-
-.blog-posts { margin-bottom: 10px; }
-
-.blog-posts-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
-
-.blog-post-item > a {
-  position: relative;
-  background: var(--border-gradient-onyx);
-  height: 100%;
-  box-shadow: var(--shadow-4);
-  border-radius: 16px;
-  z-index: 1;
-}
-
-.blog-post-item > a::before {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  border-radius: inherit;
-  background: var(--eerie-black-1);
-  z-index: -1;
-}
-
-.blog-banner-box {
-  width: 100%;
-  height: 200px;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.blog-banner-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: var(--transition-1);
-}
-
-.blog-post-item > a:hover .blog-banner-box img { transform: scale(1.1); }
-
-.blog-content { padding: 15px; }
-
-.blog-meta {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 7px;
-  margin-bottom: 10px;
-}
-
-.blog-meta :is(.blog-category, time) {
-  color: var(--light-gray-70);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-}
-
-.blog-meta .dot {
-  background: var(--light-gray-70);
-  width: 4px;
-  height: 4px;
-  border-radius: 4px;
-}
-
-.blog-item-title {
-  margin-bottom: 10px;
-  line-height: 1.3;
-  transition: var(--transition-1);
-}
-
-.blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
-
-.blog-text {
-  color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-  line-height: 1.6;
-}
-
-
-
-
-
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
@@ -1224,54 +1080,34 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
 
-/**
- * responsive larger than 450px screen
- */
+/*** larger than 450px screen ***/
 
 @media (min-width: 450px) {
 
-  /**
-   * client
-   */
-
+  /* client  */
   .clients-item { min-width: calc(33.33% - 10px); }
 
 
 
-  /**
-   * #PORTFOLIO, BLOG 
-   */
-
-  .project-img,
-  .blog-banner-box { height: auto; }
+  /*  #PORTFOLIO */
+  .project-img { height: auto; }
 
 }
 
 
-
-
-
-/**
- * responsive larger than 580px screen
- */
+/*** larger than 580px screen ***/
 
 @media (min-width: 580px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /* CUSTOM PROPERTIES */
 
   :root {
 
-    /**
-     * typography
-     */
-
+    /***  typography  ***/
     --fs-1: 32px;
     --fs-2: 24px;
     --fs-3: 26px;
@@ -1283,10 +1119,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
-  /**
-   * #REUSED STYLE
-   */
+  /* #REUSED STYLE */
 
   .sidebar, article {
     width: 520px;
@@ -1312,10 +1145,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
-  /**
-   * #MAIN
-   */
+  /* #MAIN */
 
   main {
     margin-top: 60px;
@@ -1323,10 +1153,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
-  /**
-   * #SIDEBAR
-   */
+  /* #SIDEBAR */
 
   .sidebar {
     max-height: 180px;
@@ -1368,10 +1195,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
-  /**
-   * #NAVBAR
-   */
+  /* #NAVBAR */
 
   .navbar { border-radius: 20px 20px 0 0; }
 
@@ -1380,14 +1204,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-link { --fs-8: 14px; }
 
 
-
-  /**
-   * #ABOUT
-   */
+  /* #ABOUT */
 
   .about .article-title { margin-bottom: 20px; }
 
   .about-text { margin-bottom: 40px; }
+
 
   /* service */
 
@@ -1484,9 +1306,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * #RESUME
-   */
+  /* #RESUME */
 
   .timeline-list { margin-left: 65px; }
 
@@ -1502,21 +1322,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * #PORTFOLIO, BLOG
-   */
+  /* #PORTFOLIO */
 
-  .project-img, .blog-banner-box { border-radius: 16px; }
-
-  .blog-posts-list { gap: 30px; }
-
-  .blog-content { padding: 25px; }
+  .project-img { border-radius: 16px; }
 
 
-
-  /**
-   * #CONTACT
-   */
+  /* #CONTACT */
 
   .mapbox {
     height: 380px;
@@ -1543,27 +1354,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-
-
-/**
- * responsive larger than 768px screen
- */
+/** larger than 768px screen ***/
 
 @media (min-width: 768px) {
 
-  /**
-   * REUSED STYLE
-   */
+  /* REUSED STYLE */
 
   .sidebar, article { width: 700px; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
 
-
-  /**
-   * SIDEBAR
-   */
+  /* SIDEBAR */
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
@@ -1571,20 +1373,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
-  /**
-   * NAVBAR
-   */
+  /* NAVBAR */
 
   .navbar-link { --fs-8: 15px; }
 
 
+  /* ABOUT */
 
-  /**
-   * ABOUT
-   */
-
-  /* testimonials modal */
+  /*** testimonials modal ****/
 
   .testimonials-modal {
     gap: 35px;
@@ -1594,10 +1390,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .modal-avatar-box img { width: 80px; }
 
 
-
-  /**
-   * PORTFOLIO
-   */
+  /* PORTFOLIO */
 
   .article-title { padding-bottom: 20px; }
 
@@ -1622,15 +1415,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-  /* portfolio and blog grid */
+  /*** portfolio grid ***/
 
-  .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .project-list { grid-template-columns: 1fr 1fr; }
 
 
-
-  /**
-   * CONTACT
-   */
+  /* CONTACT */
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
@@ -1642,24 +1432,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-
-
-
-/**
- * responsive larger than 1024px screen
- */
+/*** larger than 1024px screen ***/
 
 @media (min-width: 1024px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  /* CUSTOM PROPERTY */
 
   :root {
 
-    /**
-    * shadow
-    */
+    /*** shadow ***/
 
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
@@ -1668,10 +1449,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
-  /**
-   * REUSED STYLE
-   */
+  /* REUSED STYLE */
 
   .sidebar, article {
     width: 950px;
@@ -1680,9 +1458,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * MAIN 
-   */
+  /* MAIN */
 
   main { margin-bottom: 60px; }
 
@@ -1694,9 +1470,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * NAVBAR
-   */
+  /* NAVBAR */
 
   .navbar {
     position: absolute;
@@ -1719,9 +1493,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * ABOUT
-   */
+  /* ABOUT */
 
   /* service */
 
@@ -1739,36 +1511,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   .clients-item { min-width: calc(25% - 38px); }
 
 
-
-  /**
-   * PORTFOLIO
-   */
+  /* PORTFOLIO */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
-
-
-
-  /**
-   * BLOG
-   */
-
-  .blog-banner-box { height: 230px; }
 
 }
 
 
 
 
-
-/**
- * responsive larger than 1250px screen
- */
+/*** larger than 1250px screen ***/
 
 @media (min-width: 1250px) {
 
-  /**
-   * RESET
-   */
+  /* RESET */
 
   body::-webkit-scrollbar { width: 20px; }
 
@@ -1787,10 +1543,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   body::-webkit-scrollbar-button { height: 60px; }
 
 
-
-  /**
-   * REUSED STYLE
-   */
+  /* REUSED STYLE */
 
   .sidebar, article { width: auto; }
 
@@ -1798,9 +1551,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * MAIN
-   */
+  /* MAIN */
 
   main {
     max-width: 1200px;
@@ -1819,9 +1570,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * SIDEBAR
-   */
+  /* SIDEBAR */
 
   .sidebar {
     position: sticky;
@@ -1872,10 +1621,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .social-list { justify-content: center; }
 
 
-
-  /**
-	 * RESUME
-	 */
+  /* RESUME */
 
   .timeline-text { max-width: 700px; }
 
