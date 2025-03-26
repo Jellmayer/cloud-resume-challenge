@@ -144,6 +144,10 @@ body { background: var(--smoky-black); }
   #REUSED STYLES
 \*-----------------------------------*/
 
+.display-none {
+  display: none;
+}
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -309,6 +313,10 @@ main {
   border-radius: 20px;
 }
 
+.avatar-box img {
+  border-radius: 20px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -413,7 +421,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .social-item .social-link:hover { color: var(--light-gray); }
@@ -1084,9 +1092,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
-/*** larger than 450px screen ***/
+/*** smaller than 450px screen ***/
+@media (max-width: 449px) {
+
+  /* SIDEBAR */
+  .sidebar.active { max-height: 600px; }
+}
 
 @media (min-width: 450px) {
+
+  /* SIDEBAR */
+  .sidebar.active { max-height: 600px; }
 
   /* client  */
   .clients-item { min-width: calc(33.33% - 10px); }
@@ -1166,7 +1182,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; border-radius: 30px; }
 
   .info-content .name { margin-bottom: 15px; }
 
