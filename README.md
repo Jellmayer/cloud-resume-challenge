@@ -4,15 +4,11 @@
 
 ## Cloud Resume Challenge
 The purpose of this portfolio is to complete the 13 steps of the Cloud Resume Challenge - Azure version.
-In this project, Azure products such as Az Storage, Az Comos DB and Az Functions were used to make a cloud application that stores my resume and counts the number of page visitors. If you want to know more about this challenge, check the ![Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/) website.
+In this project, Azure products such as Az Storage, Az Comos DB and Az Functions were used to make a cloud application that stores my resume and counts the number of page visitors. If you want to know more about this challenge, check the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/) website.
 
 ## Design
-
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
-
 This repository design is from codesadee github vCard Personal Portfolio, licensed unde the MIT license, that created a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
-![vCard Personal Portfolio link](https://github.com/codewithsadee/vcard-personal-portfolio)
+[vCard Personal Portfolio link](https://github.com/codewithsadee/vcard-personal-portfolio)
 
 
 ## Contact
