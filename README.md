@@ -1,43 +1,23 @@
-# vCard - Personal portfolio
+# Thais Jellmayer - Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+![GitHub repo size](https://img.shields.io/github/repo-size/Jellmayer/cloud-resume-challenge)
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## Cloud Resume Challenge
+The purpose of this portfolio is to complete the 13 steps of the Cloud Resume Challenge - Azure version.
+In this project, Azure products such as Az Storage, Az Comos DB and Az Functions were used to make a cloud application that stores my resume and counts the number of page visitors. If you want to know more about this challenge, check the ![Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/) website.
 
-## Demo
+## Design
 
 ![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
 ![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-## Prerequisites
+This repository design is from codesadee github vCard Personal Portfolio, licensed unde the MIT license, that created a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+![vCard Personal Portfolio link](https://github.com/codewithsadee/vcard-personal-portfolio)
 
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
 
 ## Contact
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact me you can reach me at [LinkedIn](https://www.linkedin.com/in/thaismjellmayer).
 
 ## License
 
