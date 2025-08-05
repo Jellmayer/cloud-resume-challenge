@@ -1,5 +1,5 @@
 # Thais Jellmayer - Portfolio
-
+### Project in hiatus
 ![GitHub repo size](https://img.shields.io/github/repo-size/Jellmayer/cloud-resume-challenge)
 
 ## Cloud Resume Challenge
